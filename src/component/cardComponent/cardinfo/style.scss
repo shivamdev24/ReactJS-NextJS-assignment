@@ -1,0 +1,241 @@
+.card {
+    display: flex;
+    position: relative;
+    background: #ffffff;
+    border-radius: 12px;
+    width: 1024px;
+    height: 255px;
+    position: relative;
+    padding: 20px;
+    .badge {
+        display: flex;
+        position: absolute;
+        width: 136px;
+        height: 34px;
+        top: -20px;
+        left: 0px;
+        border-radius: 0px 8px 8px 0px;
+        background: #ff7724;
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .count {
+        position: absolute;
+        left: -23px;
+        top: 40px;
+        width: 44px;
+        height: 44px;
+        border-radius: 9999px;
+        border: 1px solid #e1e4e6;
+        text-align: center;
+        padding-top: 8px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        background: #ffffff;
+    }
+
+    .cardMain {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        // background: #000;
+        .imgSection {
+            margin-top: 30px;
+            align-items: center;
+            width: 141px;
+            text-align: center;
+            .imgContainer {
+                align-items: center;
+                img {
+                    width: 141px;
+                    height: 103px;
+                }
+                p {
+                    margin-top: 5px;
+                    font-family: Inter;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #626e79;
+                }
+            }
+        }
+
+        .mainSection {
+            width: 505px;
+            .details {
+                .showMore {
+                    display: flex;
+                    gap: 5px;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    color: #1b88f4;
+                    .svg {
+                        margin-top: 5px;
+                    }
+                }
+                .heading {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                    .off {
+                        width: 53px;
+                        height: 20px;
+
+                        font-family: Inter;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                        background: #074786;
+                    }
+
+                    .strong {
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+                    }
+                }
+
+                .mainHighlights {
+                    margin-top: 10px;
+                    display: block;
+                    .mainHeading {
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: 0em;
+                        text-align: left;
+
+                        .highlightPara {
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            padding: 10px;
+                            padding-left: 15px;
+                        }
+                        .highlight2 {
+                            padding: 15px;
+                            width: 505px;
+                            height: 116px;
+                            border-radius: 12px;
+                            font-family: Inter;
+                            font-size: 15px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;
+                            background: #fff4ed;
+                            margin-left: 20px !important;
+                            margin: 8px;
+                            .hflex {
+                                display: flex;
+                                gap: 5px;
+
+                                .timeStamp {
+                                    color: #1b88f4;
+                                    background: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .rateBtn {
+            width: 232px;
+            height: 218px;
+            text-align: center;
+            position: relative;
+
+            .rateSection {
+                position: absolute;
+                background: #f3f9ff;
+                width: 135px;
+                height: 118px;
+                top: -20px;
+                left: 45px;
+                border-radius: 0px 0px 12px 12px;
+
+                .rating {
+                    position: relative;
+                    top: 10px;
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 48px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #074786;
+                }
+                .ratingComment {
+                    position: relative;
+                    top: 10px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0em;
+                    text-align: center;
+                    color: #074786;
+                }
+
+                .star {
+                    position: absolute;
+                    left: 38px;
+                    top: 77px;
+                    color: gold;
+                    width: 30px;
+                    height: 8px;
+                    font-size: 14px;
+                    border-radius: 0px;
+                }
+            }
+
+            button {
+                position: relative;
+                top: 168px;
+                width: 232px;
+                height: 48px;
+                border-radius: 12px;
+                background: #1b88f4;
+                outline: none;
+                border: none;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: center;
+            }
+        }
+    }
+}
